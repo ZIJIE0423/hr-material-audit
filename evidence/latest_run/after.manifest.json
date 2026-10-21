@@ -1,0 +1,437 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "FBJtb3WkvaNQdvsYmShcrhqjn3W",
+  "table_id": "tbl8t60l02IsTpS1",
+  "rev": 30,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 20,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "after.ndjson",
+  "record_file_size_bytes": 32517,
+  "manifest_file": "after.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28PjHvXO359"
+    },
+    "专业": {
+      "field_id": "fldUqsfNkL",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 8
+      },
+      "example": "法学"
+    },
+    "出生日期": {
+      "field_id": "fldWTFjHqA",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "1963-01-15T00:00:00.000+08:00",
+        "max": "2006-04-10T00:00:00.000+08:00"
+      },
+      "example": "1994-03-12T00:00:00.000+08:00"
+    },
+    "合同员工姓名": {
+      "field_id": "fldjEuh6jb",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "陈婧"
+    },
+    "合同提取工号": {
+      "field_id": "fld4nIdVdH",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 7
+      },
+      "example": "EMP0001"
+    },
+    "合同期限止": {
+      "field_id": "fld74AmLWW",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2027-02-28T00:00:00.000+08:00",
+        "max": "2027-02-28T00:00:00.000+08:00"
+      },
+      "example": "2027-02-28T00:00:00.000+08:00"
+    },
+    "合同期限起": {
+      "field_id": "fldT1JP0Xn",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2025-03-01T00:00:00.000+08:00",
+        "max": "2025-03-01T00:00:00.000+08:00"
+      },
+      "example": "2025-03-01T00:00:00.000+08:00"
+    },
+    "姓名来源说明": {
+      "field_id": "fld4X1LMl3",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 44
+      },
+      "example": "四个姓名字段均映射自Excel.name；合同工号映射自emp_id；不构成独立证件比对"
+    },
+    "学历": {
+      "field_id": "fldN2PwLQX",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "本科"
+      ]
+    },
+    "学历证书姓名": {
+      "field_id": "fldX0j7Zm1",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "陈婧"
+    },
+    "审核日期": {
+      "field_id": "fldTV4I2CP",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2026-10-21T00:00:00.000+08:00",
+        "max": "2026-10-21T00:00:00.000+08:00"
+      },
+      "example": "2026-10-21T00:00:00.000+08:00"
+    },
+    "审核结论": {
+      "field_id": "fldRYrBPyM",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "通过"
+      ]
+    },
+    "岗位": {
+      "field_id": "fld1v7TFq8",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 6
+      },
+      "example": "客户运营"
+    },
+    "工号": {
+      "field_id": "fldTcLfHI2",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 7
+      },
+      "example": "EMP0001"
+    },
+    "年龄": {
+      "field_id": "fldNsFvHfm",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 0,
+        "min": 20,
+        "max": 63,
+        "avg": 34.45
+      },
+      "example": 32
+    },
+    "异常依据": {
+      "field_id": "fldxiKy9gW",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 85
+      },
+      "example": "未发现可判定规则异常"
+    },
+    "异常汇总": {
+      "field_id": "fldCtdQeoG",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 85
+      },
+      "example": "未发现可判定规则异常"
+    },
+    "待复核原因": {
+      "field_id": "fldwQ7kgIQ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 1
+      },
+      "example": "无"
+    },
+    "数据来源状态": {
+      "field_id": "fld9tL6GbZ",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "Excel模拟数据"
+      ]
+    },
+    "毕业学校": {
+      "field_id": "fld7KZXy3r",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 8
+      },
+      "example": "演练大学"
+    },
+    "毕业日期": {
+      "field_id": "fldKJ6yNIG",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2016-06-30T00:00:00.000+08:00",
+        "max": "2021-06-30T00:00:00.000+08:00"
+      },
+      "example": "2016-06-30T00:00:00.000+08:00"
+    },
+    "毕业证书编号": {
+      "field_id": "fldPtdRekv",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 13
+      },
+      "example": "DEG-TRN-10000"
+    },
+    "源表异常标记": {
+      "field_id": "fld056gMKS",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 14,
+        "max_length": 34
+      },
+      "example": "ID_EXPIRED"
+    },
+    "用人单位": {
+      "field_id": "fldaumaHmL",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 14
+      },
+      "example": "某某科技有限公司（演练样例）"
+    },
+    "眼镜来源说明": {
+      "field_id": "fldN9j430x",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 50
+      },
+      "example": "只读取rules_hit：PHOTO_GLASSES=戴；无标记按未戴处理（演练假设）；未做视觉识别"
+    },
+    "系统姓名": {
+      "field_id": "fldXwz7Sj7",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "陈婧"
+    },
+    "系统性别": {
+      "field_id": "fldzw595wv",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "男"
+      ]
+    },
+    "规则1-姓名比对": {
+      "field_id": "fldEcaT4kF",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "不适用（单一姓名来源）"
+      ]
+    },
+    "规则2-证件过期": {
+      "field_id": "fldiWNbmQp",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "✅ 有效"
+      ]
+    },
+    "规则3-年龄范围": {
+      "field_id": "fldxpnQkOw",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "✅ 正常"
+      ]
+    },
+    "规则4-百家姓TOP20": {
+      "field_id": "fld2H0ij29",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "✅ 属于"
+      ]
+    },
+    "规则5-是否戴眼镜": {
+      "field_id": "fldXljMrzz",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "✅ 未戴"
+      ]
+    },
+    "规则标记差异": {
+      "field_id": "fldzRm6uta",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 22
+      },
+      "example": "一致"
+    },
+    "证件有效期止": {
+      "field_id": "fldJpTEaG6",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2023-09-01T00:00:00.000+08:00",
+        "max": "2035-01-01T00:00:00.000+08:00"
+      },
+      "example": "2035-01-01T00:00:00.000+08:00"
+    },
+    "证件有效期起": {
+      "field_id": "fldzpszI7l",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2020-01-01T00:00:00.000+08:00",
+        "max": "2020-01-01T00:00:00.000+08:00"
+      },
+      "example": "2020-01-01T00:00:00.000+08:00"
+    },
+    "试用期": {
+      "field_id": "fldDVDjyvc",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 7
+      },
+      "example": "3个月（演练）"
+    },
+    "身份证姓名": {
+      "field_id": "flde9jkC91",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "陈婧"
+    },
+    "身份证性别": {
+      "field_id": "fldm0cr2qi",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "男"
+      ]
+    }
+  }
+}

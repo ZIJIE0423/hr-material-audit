@@ -1,0 +1,38 @@
+{
+  "审核日期": "2026-10-21",
+  "数据源": "materials/图片和附件/materials_table.xlsx",
+  "源文件SHA256": "75b5823578f0f4178bf38279e55af1ab5dd1728b18ab5e78dccd9638e5fdd2ea",
+  "员工数": 20,
+  "异常员工数": 12,
+  "异常项数": 17,
+  "无异常员工数": 8,
+  "姓名比对不适用人数": 20,
+  "待复核员工数": 0,
+  "异常工号": [
+    "EMP0003",
+    "EMP0004",
+    "EMP0006",
+    "EMP0007",
+    "EMP0010",
+    "EMP0012",
+    "EMP0014",
+    "EMP0016",
+    "EMP0017",
+    "EMP0018",
+    "EMP0019",
+    "EMP0020"
+  ],
+  "规则命中": {
+    "ID_EXPIRED": 2,
+    "SURNAME_NOT_TOP20": 11,
+    "AGE_OUT_OF_RANGE": 2,
+    "PHOTO_GLASSES": 2
+  },
+  "眼镜策略": "closed-world",
+  "执行范围": "Excel读取、映射、审核、导出；不执行OCR或外部材料获取",
+  "飞书已同步": true,
+  "通知已发送": true,
+  "表格链接": "https://larkcommunity.feishu.cn/base/FBJtb3WkvaNQdvsYmShcrhqjn3W?table=tbl8t60l02IsTpS1",
+  "同步回执目录": "evidence/latest_run",
+  "消息ID": "om_x100b62b3978644a8dc08d0055ab2c79"
+}

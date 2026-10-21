@@ -1,0 +1,150 @@
+[
+  {
+    "name": "工号",
+    "type": "text"
+  },
+  {
+    "name": "系统姓名",
+    "type": "text"
+  },
+  {
+    "name": "系统性别",
+    "type": "text"
+  },
+  {
+    "name": "身份证姓名",
+    "type": "text"
+  },
+  {
+    "name": "身份证性别",
+    "type": "text"
+  },
+  {
+    "name": "出生日期",
+    "type": "datetime"
+  },
+  {
+    "name": "证件有效期起",
+    "type": "datetime"
+  },
+  {
+    "name": "证件有效期止",
+    "type": "datetime"
+  },
+  {
+    "name": "学历证书姓名",
+    "type": "text"
+  },
+  {
+    "name": "学历",
+    "type": "text"
+  },
+  {
+    "name": "毕业学校",
+    "type": "text"
+  },
+  {
+    "name": "专业",
+    "type": "text"
+  },
+  {
+    "name": "毕业日期",
+    "type": "datetime"
+  },
+  {
+    "name": "毕业证书编号",
+    "type": "text"
+  },
+  {
+    "name": "合同员工姓名",
+    "type": "text"
+  },
+  {
+    "name": "合同提取工号",
+    "type": "text"
+  },
+  {
+    "name": "用人单位",
+    "type": "text"
+  },
+  {
+    "name": "岗位",
+    "type": "text"
+  },
+  {
+    "name": "合同期限起",
+    "type": "datetime"
+  },
+  {
+    "name": "合同期限止",
+    "type": "datetime"
+  },
+  {
+    "name": "试用期",
+    "type": "text"
+  },
+  {
+    "name": "年龄",
+    "type": "number"
+  },
+  {
+    "name": "规则1-姓名比对",
+    "type": "text"
+  },
+  {
+    "name": "规则2-证件过期",
+    "type": "text"
+  },
+  {
+    "name": "规则3-年龄范围",
+    "type": "text"
+  },
+  {
+    "name": "规则4-百家姓TOP20",
+    "type": "text"
+  },
+  {
+    "name": "规则5-是否戴眼镜",
+    "type": "text"
+  },
+  {
+    "name": "异常汇总",
+    "type": "text"
+  },
+  {
+    "name": "审核日期",
+    "type": "datetime"
+  },
+  {
+    "name": "数据来源状态",
+    "type": "text"
+  },
+  {
+    "name": "异常依据",
+    "type": "text"
+  },
+  {
+    "name": "待复核原因",
+    "type": "text"
+  },
+  {
+    "name": "审核结论",
+    "type": "text"
+  },
+  {
+    "name": "姓名来源说明",
+    "type": "text"
+  },
+  {
+    "name": "眼镜来源说明",
+    "type": "text"
+  },
+  {
+    "name": "源表异常标记",
+    "type": "text"
+  },
+  {
+    "name": "规则标记差异",
+    "type": "text"
+  }
+]

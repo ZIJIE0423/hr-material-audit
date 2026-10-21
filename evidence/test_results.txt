@@ -1,0 +1,29 @@
+test_failure_envelope (test_full.FullTests.test_failure_envelope) ... ok
+test_fields_envelope (test_full.FullTests.test_fields_envelope) ... ok
+test_missing_field_stops (test_full.FullTests.test_missing_field_stops) ... ok
+test_missing_option_stops (test_full.FullTests.test_missing_option_stops) ... ok
+test_preserve_masters (test_full.FullTests.test_preserve_masters) ... ok
+test_receipt (test_full.FullTests.test_receipt) ... ok
+test_text_field (test_full.FullTests.test_text_field) ... ok
+test_age_boundaries (test_pipeline.AuditTests.test_age_boundaries) ... ok
+test_bad_dates (test_pipeline.AuditTests.test_bad_dates) ... ok
+test_compound_surname (test_pipeline.AuditTests.test_compound_surname) ... ok
+test_expired (test_pipeline.AuditTests.test_expired) ... ok
+test_expiry_today (test_pipeline.AuditTests.test_expiry_today) ... ok
+test_long_validity (test_pipeline.AuditTests.test_long_validity) ... ok
+test_photo_source (test_pipeline.AuditTests.test_photo_source) ... ok
+test_photo_unknown (test_pipeline.AuditTests.test_photo_unknown) ... ok
+test_single_source_name (test_pipeline.AuditTests.test_single_source_name) ... ok
+test_source_not_rule_answer (test_pipeline.AuditTests.test_source_not_rule_answer) ... ok
+test_all_fields (test_sync.SyncTests.test_all_fields) ... ok
+test_degree_error_detected (test_sync.SyncTests.test_degree_error_detected) ... ok
+test_degree_preserved (test_sync.SyncTests.test_degree_preserved) ... ok
+test_duplicate_id (test_sync.SyncTests.test_duplicate_id) ... ok
+test_extra_employee (test_sync.SyncTests.test_extra_employee) ... ok
+test_missing_mapping (test_sync.SyncTests.test_missing_mapping) ... ok
+test_normalization (test_sync.SyncTests.test_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+OK

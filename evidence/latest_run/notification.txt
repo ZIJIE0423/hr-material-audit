@@ -1,0 +1,6 @@
+员工材料审核完成（Excel唯一数据源）
+审核日期：2026-10-21
+共20人；12人命中17项异常；0人待复核（可重叠）。
+异常工号：EMP0003, EMP0004, EMP0006, EMP0007, EMP0010, EMP0012, EMP0014, EMP0016, EMP0017, EMP0018, EMP0019, EMP0020
+姓名为Excel同源映射，比对不适用，不计入待复核；眼镜来自Excel标记及声明的假设。
+结果：https://larkcommunity.feishu.cn/base/FBJtb3WkvaNQdvsYmShcrhqjn3W?table=tbl8t60l02IsTpS1
